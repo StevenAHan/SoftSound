@@ -1,0 +1,2 @@
+rootProject.name = "Noise Maker"
+include ':app'

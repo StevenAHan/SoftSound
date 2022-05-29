@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/rainIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/fanIcon"
+        app:layout_constraintTop_toTopOf="@+id/fanIcon"
+        app:srcCompat="@drawable/iconrain" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logov22" />
+
+    <ImageView
+        android:id="@+id/fanIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="@+id/logo"
+        app:layout_constraintStart_toStartOf="@+id/logo"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:srcCompat="@drawable/iconfan" />
+
+    <ImageView
+        android:id="@+id/lawnIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        app:layout_constraintStart_toEndOf="@+id/fanIcon"
+        app:layout_constraintTop_toTopOf="@+id/fanIcon"
+        app:srcCompat="@drawable/iconlawn" />
+
+    <ImageView
+        android:id="@+id/streamIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/acIcon"
+        app:layout_constraintTop_toTopOf="@+id/acIcon"
+        app:srcCompat="@drawable/iconstream" />
+
+    <ImageView
+        android:id="@+id/acIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="@+id/fanIcon"
+        app:layout_constraintStart_toStartOf="@+id/fanIcon"
+        app:layout_constraintTop_toBottomOf="@+id/fanIcon"
+        app:srcCompat="@drawable/iconac" />
+
+    <ImageView
+        android:id="@+id/showerIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        app:layout_constraintStart_toEndOf="@+id/acIcon"
+        app:layout_constraintTop_toTopOf="@+id/acIcon"
+        app:srcCompat="@drawable/iconshower" />
+
+    <ImageView
+        android:id="@+id/randomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="@+id/acIcon"
+        app:layout_constraintStart_toStartOf="@+id/acIcon"
+        app:layout_constraintTop_toBottomOf="@+id/acIcon"
+        app:srcCompat="@drawable/randombutton" />
+
+    <ImageView
+        android:id="@+id/aboutUsIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/aboutusicon" />
+
+
+    <ImageView
+        android:id="@+id/privacyPolicy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/privacypolicy"
+        android:visibility="invisible"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
